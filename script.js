@@ -126,15 +126,65 @@ const restartButton = () => {
     switch7.checked=false;
     switch8.checked=false;
     switch9.checked=false;
+    master.checked=false;
 }
 restart.addEventListener("click", restartButton);
 
 
 //randomize (SPICY)
-
+const random = document.querySelector("#random");
 const randomize = () =>{
-    if (switch.checked){
+    if (random.toggle=true){
+        let randomNum = Math.floor(Math.random()*8.9);
+        let randomNum2 = Math.floor(Math.random()*8.9);
+        let randomNum3 = Math.floor(Math.random()*8.9);
+            console.log(randomNum);
 
+        if(randomNum==0){
+            light1.classList.add("active");
+            console.log(randomNum);
+        }
+        if(randomNum==1){
+            light2.classList.add("active");
+            console.log(randomNum);
+
+        }
+        if(randomNum==2){
+            light3.classList.add("active");
+            console.log(randomNum);
+
+        }
+        if(randomNum==3){
+            light4.classList.add("active");
+            console.log(randomNum);
+
+        }
+        if(randomNum==4){
+            light5.classList.add("active");
+            console.log(randomNum);
+
+        }
+        if(randomNum==5){
+            light6.classList.add("active");
+            console.log(randomNum);
+
+        }
+        else if(randomNum==6){
+            light7.classList.add("active");
+            console.log(randomNum);
+
+        }
+        else if(randomNum==7){
+            light8.classList.add("active");
+            console.log(randomNum);
+
+        }
+        else if(randomNum==8){
+            light9.classList.add("active");
+            console.log(randomNum);
+
+        }
     }
 }
 
+random.addEventListener("click", randomize);
