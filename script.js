@@ -138,53 +138,154 @@ const randomize = () =>{
         let randomNum = Math.floor(Math.random()*8.9);
         let randomNum2 = Math.floor(Math.random()*8.9);
         let randomNum3 = Math.floor(Math.random()*8.9);
-            console.log(randomNum);
-
-        if(randomNum==0){
-            light1.classList.add("active");
-            console.log(randomNum);
+        if (randomNum==randomNum2){
+        
         }
-        if(randomNum==1){
-            light2.classList.add("active");
-            console.log(randomNum);
+                if(randomNum==0){
+                    light1.classList.add("active");
+                    console.log(randomNum);
+                }
+                if(randomNum==1){
+                    light2.classList.add("active");
+                    console.log(randomNum);
 
-        }
-        if(randomNum==2){
-            light3.classList.add("active");
-            console.log(randomNum);
+                }
+                if(randomNum==2){
+                    light3.classList.add("active");
+                    console.log(randomNum);
 
-        }
-        if(randomNum==3){
-            light4.classList.add("active");
-            console.log(randomNum);
+                }
+                if(randomNum==3){
+                    light4.classList.add("active");
+                    console.log(randomNum);
 
-        }
-        if(randomNum==4){
-            light5.classList.add("active");
-            console.log(randomNum);
+                }
+                if(randomNum==4){
+                    light5.classList.add("active");
+                    console.log(randomNum);
 
-        }
-        if(randomNum==5){
-            light6.classList.add("active");
-            console.log(randomNum);
+                }
+                if(randomNum==5){
+                    light6.classList.add("active");
+                    console.log(randomNum);
 
-        }
-        else if(randomNum==6){
-            light7.classList.add("active");
-            console.log(randomNum);
+                }
+                if(randomNum==6){
+                    light7.classList.add("active");
+                    console.log(randomNum);
 
-        }
-        else if(randomNum==7){
-            light8.classList.add("active");
-            console.log(randomNum);
+                }
+                if(randomNum==7){
+                    light8.classList.add("active");
+                    console.log(randomNum);
 
-        }
-        else if(randomNum==8){
-            light9.classList.add("active");
-            console.log(randomNum);
+                }
+                if(randomNum==8){
+                    light9.classList.add("active");
+                    console.log(randomNum);
+                }
 
-        }
+
+                //random number 2
+
+                if(randomNum2==0){
+                    light1.classList.add("active");
+                    console.log(randomNum2);
+                }
+                if(randomNum2==1){
+                    light2.classList.add("active");
+                    console.log(randomNum2);
+
+                }
+                if(randomNum2==2){
+                    light3.classList.add("active");
+                    console.log(randomNum2);
+
+                }
+                if(randomNum2==3){
+                    light4.classList.add("active");
+                    console.log(randomNum2);
+
+                }
+                if(randomNum2==4){
+                    light5.classList.add("active");
+                    console.log(randomNum2);
+
+                }
+                if(randomNum2==5){
+                    light6.classList.add("active");
+                    console.log(randomNum2);
+
+                }
+                if(randomNum2==6){
+                    light7.classList.add("active");
+                    console.log(randomNum2);
+
+                }
+                if(randomNum2==7){
+                    light8.classList.add("active");
+                    console.log(randomNum2);
+
+                }
+                if(randomNum2==8){
+                    light9.classList.add("active");
+                    console.log(randomNum2);
+
+                }
+
+
+                //random num 3
+
+                if(randomNum3==0){
+                    light1.classList.add("active");
+                    console.log(randomNum3);
+                }
+                if(randomNum3==1){
+                    light2.classList.add("active");
+                    console.log(randomNum3);
+
+                }
+                if(randomNum3==2){
+                    light3.classList.add("active");
+                    console.log(randomNum3);
+
+                }
+                if(randomNum3==3){
+                    light4.classList.add("active");
+                    console.log(randomNum3);
+
+                }
+                if(randomNum3==4){
+                    light5.classList.add("active");
+                    console.log(randomNum3);
+
+                }
+                if(randomNum3==5){
+                    light6.classList.add("active");
+                    console.log(randomNum3);
+
+                }
+                if(randomNum3==6){
+                    light7.classList.add("active");
+                    console.log(randomNum3);
+
+                }
+                if(randomNum3==7){
+                    light8.classList.add("active");
+                    console.log(randomNum3);
+
+                }
+                if(randomNum3==8){
+                    light9.classList.add("active");
+                    console.log(randomNum3);
+
+                }
     }
 }
-
+let closeness=0;
+const colorchange = () =>{
+    if (closeness=+1){
+        
+    }
+}
 random.addEventListener("click", randomize);
