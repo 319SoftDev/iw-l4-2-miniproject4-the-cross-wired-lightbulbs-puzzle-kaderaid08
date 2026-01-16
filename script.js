@@ -133,6 +133,7 @@ restart.addEventListener("click", restartButton);
 
 //randomize (SPICY)
 const random = document.querySelector("#random");
+const backgroundColor = document.querySelector("#wrapper");
 const randomize = () =>{
     if (random.toggle=true){
         let randomNum = Math.floor(Math.random()*8.9);
@@ -282,10 +283,16 @@ const randomize = () =>{
                 }
     }
 }
+
+random.addEventListener("click", randomize);
+
 let closeness=0;
 const colorchange = () =>{
-    if (closeness=+1){
-        
+    if (active==true){
+        closeness +=1;
+        console.log(closeness);
     }
 }
-random.addEventListener("click", randomize);
+backgroundColor.addEventListener("click", colorchange);
+
+
